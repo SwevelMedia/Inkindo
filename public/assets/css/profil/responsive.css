@@ -1,0 +1,540 @@
+@media screen and (max-width: 1200px) {
+   
+    #prakata .nav-pra {
+
+        width: 100%;
+        height: 200px;
+        background-repeat: no-repeat;
+        /* object-fit: content; */
+    }
+
+    #prakata .nav-pra h2 {
+
+        color: white;
+        align-items: center;
+        justify-content: center;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    #prakata .rectangle {
+        background-color: #005896;
+        width: 280px;
+        height: 280px;
+        /* margin-top: 90px; */
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+
+    #prakata .rectangle-2 img {
+        /* display: none; */
+        width: 280px;
+        height: 280px;
+        margin-left: 40px;
+    }
+
+    #prakata .rectangle img {
+        margin-top: -50px;
+        width: 250px;
+        height: 330px;
+        object-fit: cover;
+    }
+
+    #prakata .kata p {
+        display: flex;
+        text-align: justify;
+        font-size: 16 px;
+        text-indent: 0, 5cm;
+    }
+
+    #prakata .nama h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+        margin-top: 10px;
+
+    }
+
+    #prakata .jabatan h1 {
+        /* display: flex; */
+        /* justify-content: center; */
+        font-size: 24px;
+
+    }
+
+    #prakata .sub-prakata {
+        /* padding-top: 30px; */
+        /* padding-left: 10px; */
+        padding-right: 20px;
+    }
+    .sub-main {
+        text-align: center !important;
+    }
+    .sub-main h3 {
+        font-size: 30px;
+        margin-top: 100px;
+    }
+    #prakata .card {
+        width: 300px;
+        height: 150px;
+        background-color: #D5E0EC;
+    }
+    
+    #prakata .card .bulat {
+        width: 40px;
+        height: 40px;
+        background-color: #295FC5;
+    }
+    
+    #prakata .card i {
+        font-size: 25px;
+        color: white;
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+    p {
+        font-size: 16px !important;
+    }
+
+    #prakata .nav-pra {
+
+        width: 100%;
+        height: 200px;
+        background-repeat: no-repeat;
+        /* object-fit: content; */
+    }
+
+    #prakata .nav-pra h2 {
+
+        color: white;
+        align-items: center;
+        justify-content: center;
+        font-size: 35px !important;
+        font-weight: bold;
+    }
+
+    #prakata .rectangle {
+        background-color: #005896;
+        width: 150px;
+        height: 150px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+
+    #prakata .rectangle-2 img {
+        display: none;
+    }
+
+    #prakata .rectangle img {
+        margin-top: -50px;
+        width: 140px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    #prakata .kata p {
+        display: flex;
+        text-align: justify;
+        /* font-size: 15px; */
+        text-indent: 0, 5cm;
+    }
+
+    #prakata .nama h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 20px !important;
+        margin-top: 10px;
+
+    }
+
+    #prakata .jabatan h1 {
+        /* display: flex; */
+        /* justify-content: center; */
+        font-size: 20px !important;
+
+    }
+
+    #prakata .sub-prakata {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #prakata .kotak {
+        width: 100px;
+        height: 140px;
+        background-color: #D5E0EC;
+        border-style: solid;
+        border-color: #005896;
+        border-radius: 10px;
+    }
+  
+
+    #prakata .card-head {
+        /* width: 500px; */
+        flex-wrap: wrap;
+        /* justify-content: center; */
+
+    }
+
+    #prakata .card {
+        width: 220px;
+        height: 150px;
+        background-color: #D5E0EC;
+
+    }
+
+    #prakata .card .bulat {
+        width: 30px;
+        height: 30px;
+        background-color: #295FC5;
+    }
+
+
+    #prakata .card i {
+        font-size: 18px;
+        color: white;
+    }
+
+
+    #prakata .card p {
+        font-size: 14px !important;
+    }
+
+    #prakata .card h2 {
+        font-size: 20px !important;
+
+    }
+
+    #prakata .kaki h3 {
+        font-size: 20px;
+    }
+
+    .sub-main {
+        text-align: center !important;
+    }
+    .sub-main h3 {
+        font-size: 20px;
+        padding-top: 100px;
+        margin-top: 0 !important;
+
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    p {
+        font-size: 16px !important;
+    }
+
+    #prakata .nav-pra {
+
+        width: 100%;
+        height: 200px;
+        background-repeat: no-repeat;
+        /* object-fit: content; */
+    }
+
+    #prakata .nav-pra h2 {
+
+        color: white;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px !important;
+        font-weight: bold;
+    }
+
+    #prakata .rectangle {
+        background-color: #005896;
+        width: 150px;
+        height: 150px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+
+    #prakata .rectangle-2 img {
+        display: none;
+    }
+
+    #prakata .rectangle img {
+        margin-top: -50px;
+        width: 140px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    #prakata .kata p {
+        display: flex;
+        text-align: justify;
+        /* font-size: 15px; */
+        text-indent: 0, 5cm;
+    }
+
+    #prakata .nama h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 20px !important;
+        margin-top: 10px;
+
+    }
+
+    #prakata .jabatan h1 {
+        /* display: flex; */
+        /* justify-content: center; */
+        font-size: 20px !important;
+
+    }
+
+    #prakata .sub-prakata {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #prakata .kotak {
+        width: 100px;
+        height: 140px;
+        background-color: #D5E0EC;
+        border-style: solid;
+        border-color: #005896;
+        border-radius: 10px;
+    }
+
+    #prakata .card-head {
+        /* width: 500px; */
+        flex-wrap: wrap;
+        /* justify-content: center; */
+
+    }
+
+    #prakata .card {
+        width: 200px;
+        height: 120px;
+        background-color: #D5E0EC;
+
+    }
+
+    #prakata .card .bulat {
+        width: 30px;
+        height: 30px;
+        background-color: #295FC5;
+    }
+
+
+    #prakata .card i {
+        font-size: 18px;
+        color: white;
+    }
+
+
+    #prakata .card p {
+        font-size: 14px !important;
+    }
+
+    #prakata .card h2 {
+        font-size: 20px !important;
+
+    }
+
+    #prakata .kaki h3 {
+        font-size: 20px;
+    }
+
+    .sub-main {
+        text-align: center !important;
+    }
+    .sub-main h3 {
+        font-size: 20px;
+        padding-top: 0;
+        margin-top: 0 !important;
+
+    }
+}
+
+@media screen and (max-width: 576px) {
+    p {
+        font-size: 16px;
+    }
+
+    #prakata .nav-pra {
+
+        width: 100%;
+        height: 200px;
+        background-repeat: no-repeat;
+        /* object-fit: content; */
+    }
+
+    #prakata .nav-pra h2 {
+
+        color: white;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    #prakata .rectangle {
+        background-color: #005896;
+        width: 150px;
+        height: 150px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+
+    #prakata .rectangle-2 img {
+        display: none;
+    }
+
+    #prakata .rectangle img {
+        margin-top: -50px;
+        width: 140px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    #prakata .kata p {
+        display: flex;
+        text-align: justify;
+        /* font-size: 12px; */
+        text-indent: 0, 5cm;
+    }
+
+    #prakata .nama h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        /* margin-top: 10px; */
+
+    }
+
+    #prakata .jabatan h1 {
+        /* display: flex; */
+        /* justify-content: center; */
+        font-size: 15px;
+
+    }
+
+    #prakata .sub-prakata {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #prakata .kotak {
+        width: 100px;
+        height: 140px;
+        background-color: #D5E0EC;
+        border-style: solid;
+        border-color: #005896;
+        border-radius: 10px;
+    }
+
+    #prakata .kotak i {
+
+        color: #005896;
+        font-size: 35px;
+        font-weight: bold;
+        padding-top: 20px;
+    }
+
+    #prakata .kotak p {
+        padding-top: 5px;
+        /* font-size: 14px; */
+        color: #005896;
+        font-weight: bold;
+
+    }
+
+    #prakata .card-head {
+        width: 250px;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+    }
+
+    #prakata .card {
+        width: 200px;
+        height: 120px;
+        background-color: #D5E0EC;
+
+
+    }
+
+    #prakata .card .bulat {
+        width: 30px;
+        height: 30px;
+        background-color: #295FC5;
+
+    }
+
+
+    #prakata .card i {
+        font-size: 18px;
+        color: white;
+    }
+
+    #prakata .card h2 {
+        font-size: 18px !important;
+
+    }
+
+    .body h2,
+    h3 {
+        font-size: 20px !important;
+        /* color: yellow; */
+    }
+    .sub-main h3{
+        font-size: 18px;
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    p {
+        font-size: 16px !important;
+    }
+
+    #prakata .card-head {
+        width: 250px;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+    }
+
+    #prakata .card {
+        width: 200px;
+        height: 120px;
+        background-color: #D5E0EC;
+
+
+    }
+
+    #prakata .card .bulat {
+        width: 30px;
+        height: 30px;
+        background-color: #295FC5;
+
+    }
+
+
+    #prakata .card i {
+        font-size: 18px;
+        color: white;
+    }
+
+    #prakata .card h2 {
+        font-size: 18px !important;
+
+    }
+
+    .kaki h3 {
+        font-size: 18px !important;
+    }
+
+    .sub-main h3 {
+        font-size: 18px;
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+
+    }
+
+}

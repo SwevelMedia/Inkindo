@@ -1,0 +1,763 @@
+@media screen and (max-width: 1300px) {
+
+  /* ----------------------contact us----------------------- */
+  .kontak .bg-kontak-1 {
+    z-index: 0;
+    width: 30%;
+    padding-top: 20px;
+    padding-left: 5%;
+  }
+
+  .kontak .bg-kontak-2 {
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .kontak h1 {
+    /* padding-left: 80px; */
+    /* padding-top: 50px; */
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .kontak .sub-h1 {
+    font-size: 20px;
+    font-weight: normal;
+    word-wrap: initial;
+    width: 350px;
+  }
+
+  #contact-us .card {
+    width: 100%;
+  }
+
+  #contact-us .card-body {
+    background: #d5e0ec;
+  }
+
+  #contact-us .card-body h5 {
+    font-size: 20px;
+  }
+
+  #contact-us .card-body p {
+    font-size: 12px;
+  }
+
+  #contact-us .card-body .coba {
+    background: #005896;
+    width: 35px;
+    height: 35px;
+  }
+
+  #contact-us .peta {
+    margin-left: auto;
+    padding-right: 70px;
+  }
+
+  #contact-us .form {
+    width: 60%;
+    height: auto;
+    margin-left: 40px;
+  }
+
+  #contact-us .form h3 {
+    font-size: 20px;
+  }
+
+  /* --------------------end contact us--------------------- */
+}
+
+@media screen and (max-width: 1200px) {
+  /* HOMEPAGE */
+
+  /* display dmi */
+  .dmi-header-area {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .row-dmi-header h1 {
+    text-align: center !important;
+  }
+
+  .row-dmi-header p {
+    text-align: center !important;
+  }
+
+  .row-dmi-header div {
+    text-align: center !important;
+  }
+
+  /* end display dmi */
+
+  /* display agenda */
+  .row-agenda-header h1 {
+    text-align: center !important;
+  }
+
+  .row-agenda-header p {
+    text-align: center !important;
+  }
+
+  .row-agenda-header div {
+    text-align: center !important;
+  }
+
+  .row-agenda-header {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  /* end display agenda */
+
+  /* display berita */
+  .card-berita {
+    display: none;
+  }
+
+  /* end berita */
+
+  /* END HOMEPAGE */
+
+  /* PROFIL PAGE */
+  .header-kode-etik {
+    padding: 2% 10% !important;
+  }
+
+  /* END PROFIL PAGE */
+
+  /* -------------------------------------------------CONTACT PAGE */
+  .bg-kontak-1 {
+    display: none;
+  }
+
+  .kontak h1 {
+    padding: 0 0 0 100px !important;
+  }
+
+  /* -------------------------------------------------END CONTACT PAGE */
+}
+
+@media screen and (max-width: 1000px) {
+
+  /* PROFIL PAGE */
+  /* kode etik */
+  .header-kode-etik {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .text-header-kode-etik h1 {
+    text-align: center;
+  }
+
+  .text-header-kode-etik p {
+    text-align: center;
+  }
+
+  /* end kode etik */
+
+  /* END PROFIL PAGE */
+
+  /* LOGIN PAGE */
+  /* .img-login {
+display: none !important;
+} */
+  /* END LOGIN PAGE */
+
+  /*--------------------- CONTACT PAGE */
+  .bg-kontak-2 {
+    max-width: 50%;
+  }
+
+  /*--------------------- END CONTACT PAGE */
+}
+
+/* sebelumnya 922px */
+@media screen and (max-width: 991px) {
+  /* HOMEPAGE */
+
+  /* ---------------DISPLAY CAROUSEL----------------- */
+  .caraousel-text {
+    border-radius: 80px;
+    width: 60%;
+    max-height: 20% !important;
+    padding: 5% !important;
+  }
+
+  /* ---------------END DISPLAY CAROUSEL----------------- */
+
+  /* display dmi */
+
+  /* end display dmi */
+
+  .row-dmi-header h1 {
+    text-align: center !important;
+  }
+
+  .row-dmi-header p {
+    text-align: center !important;
+  }
+
+  .row-dmi-header div {
+    text-align: center !important;
+  }
+
+  /* display agenda */
+  .row-agenda-header h1 {
+    text-align: center !important;
+  }
+
+  .row-agenda-header p {
+    text-align: center !important;
+  }
+
+  .row-agenda-header div {
+    text-align: center !important;
+  }
+
+  /* end display agenda */
+
+  /* END HOMEPAGE */
+
+  /*----------------- KONSTRUKSI PAGE */
+  .input-search {
+    width: 60% !important;
+  }
+
+  .btn-search {
+    width: 20% !important;
+  }
+
+  /* ---------------------END KONSTRUKSI PAGE */
+
+  /*------------------------------- CONTACT US PAGE-------------------------------------------------- */
+  .card-contact {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-evenly !important;
+    align-items: center !important;
+  }
+
+  .card-contact .card {
+    width: 40% !important;
+    height: 180px !important;
+    /* padding: 0 1rem !important; */
+  }
+
+  .kontak .bg-kontak-2 {
+    width: 70%;
+    padding: 20px 0 !important;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bg-kontak-1 {
+    padding: 0 50px 0 50px !important;
+  }
+
+  .kontak h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .kontak .sub-h1 {
+    font-size: 15px;
+    font-weight: normal;
+    word-wrap: initial;
+    width: 350px !important;
+  }
+
+  #contact-us .card {
+    width: 100%;
+  }
+
+  #contact-us .card-body {
+    background: #d5e0ec;
+  }
+
+  #contact-us .card-body h5 {
+    font-size: 20px;
+  }
+
+  #contact-us .card-body p {
+    font-size: 12px;
+  }
+
+  #contact-us .card-body .coba {
+    background: #005896;
+    width: 35px;
+    height: 35px;
+  }
+
+  #contact-us .peta {
+    margin-left: auto;
+    padding-right: 70px;
+  }
+
+  #contact-us .form {
+    width: 100% !important;
+    height: auto;
+    /* margin-left: 20px; */
+  }
+
+  #contact-us .form h3 {
+    font-size: 20px;
+  }
+
+  /*----------------------------------------------------------------- END CONTACT US */
+
+  /* PROFIL PAGE */
+  /* kode etik */
+  .icon-kode-etik {
+    display: none !important;
+  }
+
+  .header-kode-etik {
+    margin: 40px 0;
+  }
+
+  /* end kode etik */
+
+  /* END PROFIL PAGE */
+
+  /* LOGIN PAGE */
+  /* .container .login-page {
+height: 100% !important;
+} */
+  .img-login {
+    display: none !important;
+  }
+
+  /* END LOGIN PAGE */
+}
+
+@media screen and (max-width: 767px) {
+  /* HOMEPAGE */
+
+  /* display galeri */
+  .review-text {
+    width: 100% !important;
+  }
+
+  /* end galeri */
+
+  /* display regulasi */
+  .regulasi-kategori {
+    margin-left: 0 !important;
+    padding: 0 3rem !important;
+    padding-bottom: 10% !important;
+  }
+
+  .regulasi-content {
+    margin-left: 0 !important;
+    padding: 0 3rem !important;
+  }
+
+  .regulasi-img {
+    display: none !important;
+  }
+
+  .regulasi-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .regulasi-row {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  /* end regulasi */
+
+  /* display mitra */
+  .ft_next_mitra {
+    display: none !important;
+  }
+
+  .ft_prev_mitra {
+    display: none !important;
+  }
+
+  /* end display mitra */
+
+  /* END HOMEPAGE */
+
+  /* -------------------------------------------------------contact us 768 */
+
+  .kontak .bg-kontak-2 {
+    width: 60%;
+  }
+
+  .kontak h1 {
+    padding: auto !important;
+    font-size: 25px !important;
+  }
+
+  .kontak .sub-h1 {
+    font-size: 13px !important;
+    width: 250px !important;
+  }
+
+  #contact-us .card {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #contact-us .card-body {
+    background: #d5e0ec;
+  }
+
+  #contact-us .card-body h5 {
+    font-size: 15px;
+  }
+
+  #contact-us .card-body p {
+    font-size: 10px;
+  }
+
+  #contact-us .card-body .coba {
+    background: #005896;
+    width: 40px;
+    height: 40px;
+  }
+
+  #contact-us .peta {
+    margin-left: auto;
+    padding-right: 50px;
+  }
+
+  #contact-us .form {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #contact-us .form h3 {
+    font-size: 18px;
+  }
+
+  /* ----------------------------------------------------end contact us 768 */
+}
+
+@media screen and (max-width: 576px) {
+
+  /* dmi */
+  .card-dmi {
+    width: 190px !important;
+  }
+  .merk-produk p {
+    font-size: 14px;
+    overflow: hidden;
+  }
+
+  .text-smaller p {
+    max-height: 20px;
+  }
+  .perusahaan h6{
+    color: black;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 15ch; 
+  }
+  .email, .alamat p{
+    color: black;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 15ch; 
+  }
+
+
+
+
+
+
+  /* Navbar */
+  .mx-xs-3 {
+    margin: 0 8px !important;
+  }
+
+  /* End Navbar */
+
+  /* HOMEPAGE */
+  /* ---------------DISPLAY CAROUSEL----------------- */
+  .caraousel-text {
+    width: 75%;
+  }
+
+  .caraousel-text h4 {
+    font-size: 12px !important;
+    margin: 0 !important;
+  }
+
+  .caraousel-text p {
+    font-size: 10px !important;
+  }
+
+  /* ---------------END DISPLAY CAROUSEL----------------- */
+
+  /* -------------KONSTRUKSI PAGE---------- */
+  .input-search {
+    width: 50%;
+  }
+
+  .btn-search {
+    width: 20% !important;
+    font-size: small !important;
+  }
+
+  /* ------------END KONSTRUKSI PAGE----------- */
+
+  /* display profil */
+  .profil-text div {
+    font-size: 0.875 rem !important;
+  }
+
+  /* end display profil */
+
+  /* display dmi */
+  .ft_next_dmi {
+    display: none;
+  }
+
+  .ft_prev_dmi {
+    display: none;
+  }
+
+  /* end display dmi */
+
+  /* display galeri */
+  .menu-galeri-btn {
+    width: 40% !important;
+  }
+
+  .menu-galeri {
+    width: 100% !important;
+  }
+
+  .ft_next_galeri {
+    display: none;
+  }
+
+  /* end galeri */
+
+  /* display agenda */
+  .ft_next_agenda {
+    display: none;
+  }
+
+  .ft_prev_agenda {
+    display: none;
+  }
+
+  /* display berita */
+  .main-berita {
+    width: 100%;
+  }
+
+  .card-main-berita {
+    width: 100%;
+  }
+
+  /* end display berita */
+
+  /* END HOMEPAGE */
+
+  /* ------------------------------------------------------------------------ contact us */
+  .kontak {
+    padding: 1.5rem !important;
+  }
+
+  .bg-kontak1-col {
+    /* display: block !important; */
+    justify-content: center !important;
+  }
+
+  .kontak h1 {
+    text-align: center !important;
+    position: static !important;
+    padding: 5px 0 !important;
+    font-size: 25px !important;
+  }
+
+  .kontak .sub-h1 {
+    font-size: 13px !important;
+    width: 250px !important;
+  }
+
+  .bg-kontak2-col {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .bg-kontak2-col img {
+    padding: 5px 0 !important;
+    margin: 0 !important;
+  }
+
+  .kontak .bg-kontak-2 {
+    width: 60%;
+    padding: 0 !important;
+  }
+
+  #contact-us .card {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 180px !important;
+  }
+
+  #contact-us .card-body {
+    background: #d5e0ec;
+    max-height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  #contact-us .card-body h5 {
+    font-size: 13px;
+  }
+
+  #contact-us .card-body p {
+    font-size: 10px;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  #contact-us .card-body .coba {
+    background: #005896;
+    width: 40px;
+    height: 40px;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #contact-us .peta {
+    margin-left: auto;
+    padding-right: 50px;
+  }
+
+  #contact-us .form {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-left: auto;
+    font-size: 15px;
+  }
+
+  #contact-us .form h3 {
+    font-size: 15px;
+  }
+
+  /* ---------------------------------------------------end contact us */
+}
+
+@media screen and (max-width: 450px) {
+
+  /* ----------Homepage */
+  /* ---DisplayGaleri */
+  .menu-galeri {
+    font-size: 10px !important;
+  }
+
+  /* -----End DisplayGaleri */
+  /* -------------End Homepage */
+  #contact-us .card {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 230px !important;
+  }
+
+  #contact-us .card-body {
+    background: #d5e0ec;
+    height: 100% !important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+
+  /* HOME PAGE */
+  .reg-btn {
+    font-size: 12px;
+  }
+
+  /* END HOME PAGE */
+  /* --------Konstruksi */
+  .search {
+    margin-top: 1rem !important;
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+
+  .input-search {
+    width: 70% !important;
+  }
+
+  .btn-search {
+    width: 40% !important;
+    margin: 1.2rem 0 0 0 !important;
+  }
+
+  /* --------Konstruksi */
+
+  /*--------------------- KODE ETIK PAGE --------------------- */
+  .header-kode-etik {
+    top: 5px !important;
+    bottom: 5px !important;
+  }
+
+  .header-kode-etik h1 {
+    font-size: 18px !important;
+  }
+
+  .text-header-kode-etik p {
+    /* font-size: 10px !important; */
+    display: none !important;
+  }
+
+  /*--------------------- END KODE ETIK PAGE --------------------- */
+
+  /* ----------------------CONTACT US PAGE */
+  .kontak h1 {
+    font-size: 20px !important;
+  }
+
+  .kontak .sub-h1 {
+    font-size: 9px !important;
+    width: 200px !important;
+  }
+
+  .card-contact .card {
+    width: 100% !important;
+    max-height: 150px;
+  }
+
+  #contact-us .card-body {
+    background: #d5e0ec;
+    /* max-height: 150px !important; */
+  }
+
+  /* -------------------------END US CONTACT PAGE */
+}

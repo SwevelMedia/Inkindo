@@ -1,0 +1,13 @@
+<ifmodule mod_rewrite.c>
+    RewriteEngine On RewriteCond %{REQUEST_FILENAME} -d [OR] RewriteCond
+    %{REQUEST_FILENAME} -f RewriteRule ^ ^$1 [N] RewriteCond %{REQUEST_URI}
+    (\.\w+$) [NC] RewriteRule ^(.*)$ public/$1 RewriteCond %{REQUEST_FILENAME}
+    !-d RewriteCond %{REQUEST_FILENAME} !-f RewriteRule ^ server.php RewriteCond
+    %{HTTP:Authorization} ^(.+)$ RewriteRule .* -
+    [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}] # Redirect all requests to the
+    public/index.php file RewriteCond %{REQUEST_URI} !^/public/ RewriteCond
+    %{REQUEST_FILENAME} !-f RewriteCond %{REQUEST_FILENAME} !-d RewriteRule
+    ^(.*)$ /public/index.php/$1 [L] # If you want to remove public/index.php
+    from the URL RewriteCond %{REQUEST_URI} ^/public/(.*)$ RewriteRule
+    ^public/(.*)$ /$1 [R=301,NC,L]
+</ifmodule>

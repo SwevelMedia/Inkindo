@@ -1,0 +1,104 @@
+#prakata .nav-pra {
+    background-size: 100% auto;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+
+}
+
+#prakata .nav-pra h2 {
+
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#prakata .rectangle {
+    background-color: #0169B8;
+    width: 350px;
+    height: 350px;
+    /* margin-top: 80px; */
+    /* margin-bottom: 130px; */
+    border-radius: 10px;
+}
+
+#prakata .rectangle-2 {
+    position: absolute;
+    z-index: -2;
+    /* margin-left: 0px !important; */
+    margin-top: 20px;
+    /* width: 350px;
+    height: 350px; */
+    padding-left: 30px;
+}
+
+#prakata .rectangle img {
+    margin-top: -50px;
+    width: 350px;
+    height: 400px;
+    object-fit: contain;
+}
+
+#prakata .kata p {
+    text-align: justify;
+    font-size: 16px;
+    text-indent: 1cm;
+}
+
+#prakata .nama h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    /* margin-top: 50px; */
+}
+
+#prakata .jabatan h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#prakata .kotak {
+    width: 130px;
+    height: 150px;
+    background-color: #D5E0EC;
+
+}
+
+#prakata .kotak i {
+
+    color: #005896;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+#prakata .kotak p {
+    padding-top: 5px;
+    font-size: 15px;
+    color: #005896;
+}
+
+#prakata .card {
+    width: 350px;
+    height: 200px;
+    background-color: #D5E0EC;
+}
+
+#prakata .card .bulat {
+    width: 50px;
+    height: 50px;
+    background-color: #295FC5;
+}
+
+#prakata .card i {
+    font-size: 30px;
+    color: white;
+}
+
+#prakata .kaki h3 {
+    font-size: 30px;
+}
+
+#prakata .kaki p {
+    font-size: 17px;
+}

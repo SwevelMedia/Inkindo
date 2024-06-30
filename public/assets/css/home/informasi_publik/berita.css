@@ -1,0 +1,32 @@
+.bg-berita {
+  background-size: 100% auto;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.img-main-berita {
+  object-fit: cover;
+  height: 470px !important;
+  width: 100%;
+  /* min-height: 300px; */
+}
+
+.img-scnd-berita {
+  object-fit: fill;
+  /* max-height: 300px; */
+  width: 100%;
+  height: 180px !important;
+}
+
+.img-recent-berita {
+  /* max-height: 280px; */
+  /* min-height: 270px; */
+  width: 100%;
+  object-fit: cover;
+  height: 150px;
+}
+
+.card-beritas {
+  height: 250px;
+}

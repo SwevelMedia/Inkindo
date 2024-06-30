@@ -1,0 +1,72 @@
+#syarat-anggota .nav-syarat img {
+  width: 100%;
+  height: auto;
+}
+
+.nav-bg {
+  height: 180px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.nav-bg h3 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 0 !important;
+  align-items: center;
+}
+
+.list-group-item.active {
+  z-index: 2;
+  color: var(--bs-list-group-active-color);
+  /* background-color: var(--bs-list-group-active-bg); */
+  background-color: #005896 !important;
+  border-color: var(--bs-list-group-active-border-color);
+}
+
+.list-group-item.active i {
+  font-size: 40px;
+}
+
+.list-group-item i {
+  font-size: 40px;
+}
+
+.accordion-body {
+  border-top: 2px solid #005896 !important;
+}
+
+.accordion {
+  --bs-accordion-active-color: #202124;
+  --bs-accordion-active-bg: none;
+}
+
+#syarat-anggota .sub-nav h3 {
+  color: white;
+  width: 500px;
+  font-size: 30px;
+}
+
+#syarat-anggota .sub-nav img {
+  width: 300px;
+}
+
+#syarat-anggota .number {
+  height: 35px;
+  width: 35px;
+  background-color: #005896;
+}
+
+#syarat-anggota .number h3 {
+  color: white;
+  font-size: 17px;
+  margin: 0%;
+  padding: 0%;
+}
+
+@media screen and (min-width: 1200px) {
+  .tombol {
+    width: 400px !important;
+  }
+}

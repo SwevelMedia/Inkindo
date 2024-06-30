@@ -1,0 +1,15 @@
+.bulat {
+  width: 40px;
+  height: 40px;
+  background-color: #0169B8;
+  border-radius: 50%;
+  /* Membuat elemen menjadi bentuk bulat */
+  /* display: inline-block;  */
+  /* Untuk memungkinkan elemen berada di samping paragraf */
+}
+
+/* CSS untuk paragraf */
+p {
+  display: inline-block;
+  /* Untuk memungkinkan paragraf berada di samping elemen bulat */
+}

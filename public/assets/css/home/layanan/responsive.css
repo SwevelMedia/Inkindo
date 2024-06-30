@@ -1,0 +1,83 @@
+@media screen and (max-width: 991px) {
+  /* KONSTRUKSI PAGE */
+  .input-search {
+    width: 60% !important;
+  }
+
+  .btn-search {
+    width: 20% !important;
+  }
+
+  /* END KONSTRUKSI PAGE */
+}
+
+@media screen and (min-width: 768px) {
+  .vp-sm-klasifikasi {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* -------------- KONSTRUKSI PAGE -------------- */
+  .vp-lg-klasifikasi {
+    display: none;
+  }
+  /* -------------- END KONSTRUKSI PAGE -------------- */
+}
+@media screen and (max-width: 576px) {
+  /* -------------KONSTRUKSI PAGE---------- */
+  .input-search {
+    width: 50%;
+  }
+  .btn-search {
+    width: 20% !important;
+    font-size: small !important;
+  }
+  /* ------------END KONSTRUKSI PAGE----------- */
+
+  /* -------------NON KONSTRUKSI PAGE---------- */
+  .search-nonkonstruksi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .search-nonkonstruksi .input-group {
+    display: flex !important;
+    width: auto !important;
+
+    justify-content: center !important;
+  }
+  .search-nonkonstruksi .input-group {
+  }
+  .btn-search-nonkonstruksi button {
+    margin: 0 auto;
+  }
+  /* ------------END NON KONSTRUKSI PAGE----------- */
+}
+
+@media screen and (max-width: 424px) {
+  /* -------------KONSTRUKSI PAGE---------- */
+  /* .input-search-nonkonsruksi {
+    margin-bottom: 12px !important;
+  } */
+  /* ------------END KONSTRUKSI PAGE----------- */
+}
+
+@media screen and (max-width: 350px) {
+  .search {
+    margin-top: 1rem !important;
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+  .input-search {
+    width: 70% !important;
+  }
+  .btn-search {
+    width: 40% !important;
+    margin: 1.2rem 0 0 0 !important;
+  }
+  .text-heeader {
+    margin: 0 !important;
+  }
+}

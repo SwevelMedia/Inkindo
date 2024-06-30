@@ -1,0 +1,286 @@
+@media screen and (max-width: 1200px) {
+
+    #profile .card-head {
+        /* width: 500px; */
+        flex-wrap: wrap;
+        /* justify-content: center; */
+
+    }
+
+    #profile .card {
+        width: 280px;
+        height: 180px;
+    }
+
+    #profile .gambar-visi {
+        width: 400px !important;
+        height: 500px !important;
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+
+    .visi {
+        width: 550px;
+        margin-left: 100px;
+    }
+
+}
+
+/* @media screen and (max-width: 991px) {
+    .komponen-profile-1 img {
+        display: none;
+    }
+
+    #profile .nav-prof h2 {
+        color: white;
+        align-items: center;
+        justify-content: center;
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .kata-profile h2 {
+        font-size: 23px;
+        padding-top: 40px;
+    }
+
+    #profile .gambar-visi {
+        width: 50%;
+    }
+
+    .kata-profile p {
+        text-align: justify;
+        text-indent: 1.5cm;
+        padding-top: 10px;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .visi {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .visi h3 {
+        font-size: 23px;
+    }
+
+    #profile .gambar-visi {
+        display: none;
+    }
+
+    .visi-number {
+        background: #295FC5;
+        width: 28px !important;
+        height: 28px !important;
+        font-size: 17px;
+        padding-top: 0px !important;
+        margin-bottom: 5px;
+    }
+
+    .sub-misi p {
+        padding-top: 3px !important;
+    }
+
+
+    .persebaran h3 {
+        font-size: 23px;
+    }
+
+    #profile .kotak {
+        width: 100px;
+        height: 140px;
+    }
+
+
+
+    #profile .kotak p {
+  
+
+    }
+
+    #profile .card-head {
+        flex-wrap: wrap;
+    }
+
+    #profile .card {
+        width: 200px;
+        height: 120px;
+
+    }
+
+    #profile .card .bulat {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    #profile .card i {
+        font-size: 18px;
+    }
+
+
+    #profile .card p {
+        font-size: 14px !important;
+    }
+
+    #profile .card h2 {
+        font-size: 17px !important;
+
+    }
+
+    #profile .kaki h3 {
+        font-size: 23px;
+    }
+
+    .komponen-profile-1 img {
+        width: 70%;
+
+        display: none;
+    }
+
+    #profile .gambar-visi {
+        width: 50%;
+    }
+
+    .kata-profile p {
+        font-size: 17px;
+        padding-bottom: 50px;
+        text-align: justify;
+        text-indent: 1.5cm;
+        width: 100%;
+    }
+
+    .visi {
+        width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #profile .gambar-visi {
+        display: none;
+    }
+
+    .visi-number {
+        background: #295fc5;
+        width: 40px;
+        height: 40px;
+        font-size: 19px;
+        padding-top: 23px;
+    }
+
+    .sub-misi .output-misi {
+        margin-left: 10px;
+        font-size: 17px;
+    }
+} */
+
+/* @media screen and (max-width: 767px) {
+    .komponen-profile-1 img {
+        display: none;
+    }
+
+    #profile .nav-prof h2 {
+        color: white;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .kata-profile h2 {
+        font-size: 20px;
+        padding-top: 40px;
+    }
+
+    #profile .gambar-visi {
+        width: 50%;
+    }
+
+    .kata-profile p {
+        text-align: justify;
+        text-indent: 1.5cm;
+        padding-top: 10px;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .visi {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .visi h3 {
+        font-size: 20px;
+    }
+
+    #profile .gambar-visi {
+        display: none;
+    }
+
+    .visi-number {
+        background: #295FC5;
+        width: 30px;
+        height: 30px;
+        font-size: 17px;
+        padding-top: 0px;
+    }
+
+    .persebaran h3 {
+        font-size: 20px;
+    }
+
+    #profile .kotak {
+        width: 100px;
+        height: 140px;
+    }
+
+    #profile .kotak i {
+
+        font-size: 35px;
+        font-weight: bold;
+        padding-top: 20px;
+    }
+
+    #profile .kotak p {
+        padding-top: 5px;
+    }
+
+    #profile .card-head {
+        flex-wrap: wrap;
+    }
+
+    #profile .card {
+        width: 200px;
+        height: 120px;
+    }
+
+    #profile .card .bulat {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    #profile .card i {
+        font-size: 18px;
+    }
+
+
+    #profile .card p {
+        font-size: 14px !important;
+    }
+
+    #profile .card h2 {
+        font-size: 20px !important;
+
+    }
+
+    #profile .kaki h3 {
+        font-size: 20px;
+    }
+
+
+} */
+

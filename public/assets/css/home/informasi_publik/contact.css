@@ -1,0 +1,78 @@
+/* contact */
+#contact-us .kontak {
+  background: #005896;
+}
+
+.kontak {
+  margin: auto;
+}
+
+.kontak h1 {
+  padding-left: 100px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.kontak .sub-h1 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.bg-kontak-2 {
+  display: block;
+  width: 60%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kontak .bg-kontak-1 {
+  z-index: 0;
+  padding-top: 40px;
+}
+
+#contact-us .card {
+  width: 24rem;
+}
+
+#contact-us .card-body {
+  background: #d5e0ec;
+}
+
+#contact-us .card-body h5 {
+  font-size: 20px;
+}
+
+#contact-us .card-body p {
+  font-size: 15px;
+}
+
+#contact-us .card-body .coba {
+  background: #005896;
+  width: 40px;
+  height: 40px;
+}
+
+#contact-us .peta {
+  margin-left: auto;
+  padding-right: 50px;
+}
+
+#contact-us .form {
+  width: 60%;
+  height: auto;
+  /* margin-left: 20px; */
+}
+
+iframe {
+  width: 100% !important;
+}
+
+/* #contact-us .card-body .d-flex {
+  background: #005896;
+  width: 40px;
+  height: 40px;
+} */
+
+/* end contact */

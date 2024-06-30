@@ -1,0 +1,114 @@
+#profile .nav-prof {
+  background-size: 100% auto;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+/* p {
+  font-size: 16px !important;
+} */
+
+#profile .nav-prof h2 {
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.apa-itu h2 {
+  font-size: 30px;
+  /* padding-top: 70px; */
+}
+
+.kata-profile p {
+  font-size: 17px;
+  /* padding-bottom: 30px; */
+  text-align: justify;
+  text-indent: 1.5cm;
+  /* padding-top: 10px; */
+}
+
+.komponen-profile-1 img {
+  width: 400px;
+  /* height: auto; */
+  /* align-items: center; */
+  align-content: center;
+}
+
+.visi {
+  width: 650px;
+  margin-left: 100px;
+}
+
+#profile .gambar-visi {
+  /* padding-top: 70px; */
+  width: 400px;
+  height: auto;
+}
+
+.visi-number {
+  background: #0169b8;
+  width: 30px;
+  height: 30px;
+  font-size: 17px;
+  /* padding-top: 10px; */
+}
+
+.sub-misi .output-misi {
+  margin-left: 10px;
+}
+
+.sub-misi h4 {
+  font-size: 15px;
+  color: white;
+  /* padding-top: 5px; */
+}
+
+#profile .kotak {
+  width: 130px;
+  height: 150px;
+  background-color: rgb(243, 245, 248);
+  /* border-style: solid;*/
+  border-color: #0169B8 !important;
+  /* border-radius: 10px; */
+}
+
+#profile .kotak i {
+  /* color: #0169B8; */
+  font-size: 40px;
+}
+
+#profile .kotak p {
+  padding-top: 5px;
+  font-size: 15px;
+  /* color: #0169B8; */
+}
+
+#profile .card {
+  width: 300px;
+  height: 200px;
+ background-color: rgb(243, 245, 248);
+}
+
+#profile .card .bulat {
+  width: 50px;
+  height: 50px;
+  background-color: #000000;
+}
+
+#profile .card i {
+  font-size: 30px;
+  color: white;
+}
+
+#profile .kaki h3 {
+  font-size: 30px;
+}
+
+#profile .kaki p {
+  font-size: 17px;
+}
+
+/* end profil */

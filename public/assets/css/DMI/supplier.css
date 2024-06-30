@@ -1,0 +1,40 @@
+.bulat {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  border: 2px solid #0169b8;
+  /* border-style: solid; */
+}
+
+.bulat img {
+  height: 80px;
+  width: 80px;
+  object-fit: contain;
+  border-radius: 60%;
+}
+
+.btn-pagination {
+  background-color: #fff;
+  width: fit-content;
+  /* height: 48px; */
+  color: #0169b8;
+  border: #0169b8 1px solid !important;
+}
+
+#pagination-container .active {
+  background-color: #0169b8 !important;
+  color: #fff !important;
+  border: 1px solid #005896 !important;
+}
+
+@media screen and (max-width: 576px) {
+  .website {
+    height: 25px;
+  }
+
+  .nama-pengguna {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

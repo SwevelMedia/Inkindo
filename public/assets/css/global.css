@@ -1,0 +1,229 @@
+/* -----------------GLOBAL PAGE--------------- */
+.card-img-top-sm {
+  height: 120px;
+  object-fit: fill;
+}
+
+/* ----------text */
+.justify-txt-align {
+  text-align: justify !important;
+}
+
+/* text-size */
+.text-title-1 {
+  font-size: 0.9rem !important;
+  color: #202124 !important;
+}
+
+.text-title-2 {
+  font-size: 1.2rem !important;
+}
+
+.text-calender-1 {
+  font-size: 0.8rem !important;
+  color: #929395 !important;
+}
+
+.text-desc {
+  --bs-font-font-size: 0.75rem;
+}
+
+.text-desc-card-1 {
+  font-size: 0.8rem !important;
+}
+.text-desc-card-1_2 {
+  font-size: 0.5rem !important;
+}
+
+.text-smaller {
+  font-size: 9px !important;
+}
+
+.text-small {
+  font-size: 12px !important;
+}
+
+.text-small-lg {
+  font-size: 14px !important;
+}
+
+.text-semi-lg {
+  font-size: 16px !important;
+}
+
+.text-lg-1 {
+  font-size: 18px !important;
+}
+
+.text-xl-1 {
+  font-size: 20px !important;
+}
+
+.card-text-lg {
+  /* padding: 8px; */
+  font-size: 14px;
+  font-family: "Poppins";
+}
+
+/* text weight */
+.text-weight-300 {
+  font-weight: 300 !important;
+}
+
+.text-weight-400 {
+  font-weight: 500 !important;
+}
+
+.text-weight-500 {
+  font-weight: 500 !important;
+}
+
+.text-weight-600 {
+  font-weight: 600 !important;
+}
+
+.text-weight-700 {
+  font-weight: 700 !important;
+}
+
+.text-weight-800 {
+  font-weight: 800 !important;
+}
+
+.two-line-text {
+  display: -webkit-box;
+  height: 3em;
+  -webkit-line-clamp: 2; /* Menentukan jumlah baris yang ditampilkan */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.one-line-text {
+  display: -webkit-box;
+  height: 1.5em;
+  -webkit-line-clamp: 1; /* Menentukan jumlah baris yang ditampilkan */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Dropdown Item */
+.dropdown-item:active {
+  background-color: #0169b8;
+}
+/* End Dropdown Item */
+/* --------------------background & color */
+.blue-onlybg-inkindo {
+  background: #0169b8 !important;
+}
+
+.blue-icon-inkindo {
+  color: #0169b8 !important;
+}
+
+.blue-bg-inkindo {
+  background: #0169b8 !important;
+  color: #fff !important;
+}
+.blue-bg-inkindo:hover {
+  border: 1px solid #0169b8 !important;
+  background-color: #fff !important;
+  color: #0169b8 !important;
+}
+
+.blue-c-v2 {
+  color: #0169b8;
+}
+/* --------------------end background & color */
+
+/* ------------------------ border*/
+.border-color-inkindo {
+  border: 2px solid #005896; /* Merah */
+}
+
+.active-border-custom {
+  color: #005896;
+  border: #005896 solid 1px;
+}
+/* ------------------------ endborder*/
+
+/* --------Button */
+.btn-custom-hover-list:hover {
+  background-color: rgb(255, 255, 255) !important;
+  color: #005896 !important;
+  border: 1px solid #005896 !important;
+}
+
+.blue-light-inkindo {
+  border: 1px solid #0169b8 !important;
+  background-color: #fff !important;
+  color: #0169b8 !important;
+}
+
+.blue-light-inkindo:hover {
+  background: #0169b8 !important;
+  color: #fff !important;
+}
+
+.blue-only-inkindo {
+  background: #0169b8 !important;
+  color: #fff !important;
+}
+
+.blue-light-only-inkindo {
+  border: 1px solid #0169b8 !important;
+  background-color: #fff !important;
+  color: #0169b8 !important;
+}
+
+.dropdown-bg-menu1 {
+  background: #f0f0f0;
+}
+.dropdown-bg-menu2 {
+  background: #c3c3c3;
+}
+
+/* -------------Pagination */
+.btn-pagination {
+  background-color: #fff;
+  width: fit-content;
+  /* height: 48px; */
+  color: #0169b8;
+  border: #0169b8 1px solid !important;
+}
+
+#pagination-container .active {
+  background-color: #0169b8 !important;
+  color: #fff !important;
+  border: 1px solid #005896 !important;
+}
+
+.btn-pagination:hover {
+  background-color: #0169b8 !important;
+  color: #fff !important;
+  border: 1px solid #005896 !important;
+}
+/* ----------------End Pagination */
+
+/* Form Check */
+.form-check-input:checked {
+  background-color: #005896 !important;
+}
+/* EndForm Check */
+
+/* opcaity */
+.opacity-1-5 {
+  opacity: 0.5;
+}
+
+.opacity-05 {
+  opacity: 0.5;
+}
+
+/* Box shadow */
+.shadow-1 {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* -----------------END GLOBAL PAGE------------- */

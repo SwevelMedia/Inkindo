@@ -1,0 +1,654 @@
+/* .background-nav{
+  background-size: 100% auto;
+} */
+
+.btn-outline-light {
+  --bs-btn-color: #f8f9fa;
+  --bs-btn-border-color: #f8f9fa;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #f8f9fa;
+  --bs-btn-hover-border-color: #f8f9fa;
+  --bs-btn-focus-shadow-rgb: 248, 249, 250;
+  --bs-btn-active-color: #0169b8 !important;
+  --bs-btn-active-bg: #f8f9fa;
+  --bs-btn-active-border-color: #f8f9fa;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #f8f9fa;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #f8f9fa;
+  --bs-gradient: none;
+}
+
+.nav-pills .nav-link {
+  background: white !important;
+  border: 0;
+  border-radius: var(--bs-nav-pills-border-radius);
+}
+
+.nav-pills .nav-link:disabled {
+  color: var(--bs-nav-link-disabled-color);
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  /* color: var(--bs-nav-pills-link-active-color); */
+  color: blue !important;
+  /* background-color: var(--bs-nav-pills-link-active-bg) */
+  background-color: whitesmoke !important;
+}
+
+/* end button */
+#scroll-top {
+  width: 3rem;
+  height: 3rem;
+  position: fixed;
+  right: 50px;
+  bottom: 128px;
+  z-index: 999;
+  color: #cccccc;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1;
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 50% !important;
+  border: none;
+  background-color: white;
+  /* font-size: 2rem; */
+  font-size: 20px;
+  transition: all 0.4s ease;
+  transform: translateY(60px);
+  -ms-transform: translateY(60px);
+}
+
+.icon-arrow-up:before {
+  content: "\f122";
+}
+
+#scroll-top:hover,
+#scroll-top:focus {
+  color: #777;
+  background-color: #eaeaea;
+}
+
+#scroll-top.show {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+}
+
+/* ----------------------- */
+
+body {
+  background: white;
+}
+
+.background-nav {
+  background-size: 100% auto;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  /* background-size: 100% auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 260px; */
+}
+
+.background-nav h3 {
+  color: white;
+  width: 650px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.tombol p {
+  color: #004dff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.garis {
+  width: 50%;
+  border-color: #0169b8 !important;
+}
+
+.content {
+  font-family: Verdana;
+  font-size: 14px;
+  position: relative;
+}
+
+.content * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.nama b {
+  font-size: 14px;
+  color: white;
+  /* font-weight: bolder !important; */
+  text-align: center;
+}
+
+.nama p {
+  color: white;
+  font-size: 12px;
+}
+
+.jabatan b {
+  font-size: 16px;
+  /* font-weight: bolder !important; */
+  text-align: center;
+  line-height: 1;
+}
+
+.org-chart {
+  display: block;
+  clear: both;
+  margin-bottom: 30px;
+  position: relative;
+  /**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+  /* Box colors */
+  /* 1 column */
+  /* 2 column */
+  /* 3 column */
+  /* DEPARTMENTS COLUMNs */
+}
+
+.org-chart.cf:before,
+.org-chart.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.org-chart.cf:after {
+  clear: both;
+}
+
+.org-chart.cf {
+  zoom: 1;
+}
+
+.org-chart ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.org-chart ul li {
+  position: relative;
+}
+
+.org-chart ul li span {
+  display: block;
+  border: 3px solid black;
+  text-align: center;
+  overflow: hidden;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  box-shadow: 4px 4px 9px -4px rgba(0, 0, 0, 0.4);
+  -webkit-transition: all linear 0.1s;
+  -moz-transition: all linear 0.1s;
+  transition: all linear 0.1s;
+  /* background: #92d4a8; */
+  background: white;
+  padding: 4px;
+}
+
+.org-chart .board {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+.org-chart .board:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 550px;
+  width: 0px;
+  /* border-left: 2px solid orange; */
+  border-left: 2px solid black;
+  margin-left: 50%;
+  top: 90px;
+}
+
+.org-chart .board2 {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+.org-chart .board2:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 60px;
+  width: 0px;
+  /* border-left: 2px solid orange; */
+  border-left: 2px solid black;
+  margin-left: 49%;
+  top: 70px;
+}
+
+.org-chart ul.columnOne {
+  height: 90px;
+  position: relative;
+  width: 100%;
+  display: block;
+  clear: both;
+}
+
+.org-chart ul.columnOne li {
+  width: 30%;
+  margin: 0px auto;
+  top: 20px;
+}
+
+.org-chart ul.columnTwo {
+  position: relative;
+  width: 100%;
+  display: block;
+  height: 90px;
+  clear: both;
+}
+
+.org-chart ul.columnTwo li:first-child {
+  width: 30%;
+  float: left;
+}
+
+.org-chart ul.columnTwo li {
+  width: 30%;
+  float: right;
+}
+
+.org-chart ul.columnTwo:before {
+  content: "";
+  display: block;
+  position: relative;
+  width: 80%;
+  height: 10px;
+  /* border-top: 2px solid orange; */
+  border-top: 2px solid black;
+  margin: 0 auto;
+  top: 40px;
+}
+
+.org-chart ul.columnThree {
+  position: relative;
+  width: 100%;
+  display: block;
+  clear: both;
+}
+
+.org-chart ul.columnThree li:first-child {
+  width: 30%;
+  float: left;
+  margin-left: 0;
+}
+
+.org-chart ul.columnThree li {
+  width: 30%;
+  margin-left: 5%;
+  float: left;
+}
+
+.org-chart ul.columnThree li:last-child {
+  width: 30%;
+  float: right;
+  margin-left: 0;
+}
+
+.org-chart ul.columnThree:before {
+  content: "";
+  display: block;
+  position: relative;
+  width: 80%;
+  height: 10px;
+  border-top: 2px solid black;
+  margin: 0 auto;
+  top: 40px;
+}
+
+.org-chart .departments {
+  width: 100%;
+  display: block;
+  clear: both;
+  margin-top: 40px;
+}
+
+.org-chart .departments:before {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 40px;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  margin: 0 auto;
+  top: 0px;
+}
+
+.org-chart .department {
+  border-left: 2px solid black;
+  width: 15%;
+  float: left;
+  margin: 0px 9px;
+}
+
+.org-chart .department:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 40%;
+  border-left: 2px solid black;
+  left: 50%;
+  top: -40px;
+  z-index: -1;
+}
+
+.org-chart .departments2 {
+  width: 100%;
+  display: block;
+  clear: both;
+  /* margin-top: 20px; */
+  padding-top: 120px;
+}
+
+.org-chart .departments2:before {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 40px;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  margin: 0 auto;
+  top: 0px;
+}
+
+.org-chart .department2 {
+  border-left: 2px solid black;
+  width: 15%;
+  float: left;
+  margin: 0px 15px;
+  /* margin-left: 90px; */
+}
+
+.org-chart .department2:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 50%;
+  border-left: 2px solid black;
+  left: 50%;
+  top: -40px;
+  z-index: -2;
+}
+
+.org-chart .department:first-child:after,
+.org-chart .department2:first-child:after {
+  display: none;
+}
+
+.org-chart .department:last-child:after,
+.org-chart .department2:last-child:after {
+  display: none;
+}
+
+.org-chart .department.central,
+.org-chart .department2.central {
+  /* background: #f5eec9; */
+  background: white;
+}
+
+.org-chart .department.central:after,
+.org-chart .department2.central:after {
+  display: none;
+}
+
+.org-chart .department .kotak,
+.org-chart .department2 .kotak {
+  border-left: 1px solid black;
+}
+
+.org-chart .department li,
+.org-chart .department2 li {
+  padding-left: 25px;
+  border-bottom: 2px solid black;
+  height: 70px;
+}
+
+.org-chart .department li .kotak,
+.org-chart .department2 li .kotak {
+  background: #0169b8;
+  top: 38px;
+  position: absolute;
+  z-index: 1;
+  width: 95%;
+  height: auto;
+  vertical-align: middle;
+  right: 0px;
+  line-height: 14px;
+  border: 3px solid black;
+}
+
+.org-chart .department .sections,
+.org-chart .department2 .sections {
+  margin-top: -20px;
+}
+
+.org-chart li.ubah {
+  margin-left: 180px !important;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1200px) {
+  .org-chart .department {
+    border-left: 2px solid black;
+    width: 15%;
+    float: left;
+    margin: 0px 5px;
+  }
+
+  .org-chart li.ubah {
+    margin-left: 130px !important;
+  }
+
+  .org-chart .board:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 620px;
+    width: 0px;
+    /* border-left: 2px solid orange; */
+    border-left: 2px solid black;
+    margin-left: 50%;
+    top: 90px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .org-chart li.ubah {
+    margin-left: 100px !important;
+  }
+}
+
+
+@media all and (max-width: 767px) {
+  .background {
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 250px;
+  }
+
+  .background h3 {
+    color: white;
+    width: 500px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    align-items: normal;
+  }
+
+  .tombol p {
+    color: #004dff;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  #scroll-top {
+    display: flex;
+  }
+
+  .org-chart .board {
+    margin: 0px;
+    width: 100%;
+  }
+
+  .org-chart .board:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 300px;
+    width: 0px;
+    /* border-left: 2px solid orange; */
+    border-left: 2px solid black;
+    margin-left: 50%;
+    top: 90px;
+  }
+
+  .org-chart li.ubah {
+    margin-left: 0 !important;
+  }
+
+  .org-chart .departments:before {
+    border: none;
+  }
+
+  .org-chart .departments2:before {
+    border: none;
+    height: 10px;
+  }
+
+  .org-chart .department,
+  .org-chart .department2 {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    /* background: #f5eec9; */
+    background: white;
+    margin-bottom: 40px;
+  }
+
+  .org-chart .departments2 {
+    padding-top: 0 !important;
+  }
+
+  .org-chart .department:before,
+  .org-chart .department2:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 60px;
+    /* border-left: 2px solid orange; */
+    z-index: 1;
+    top: -45px;
+    left: 0%;
+    margin-left: -2px;
+  }
+
+  .org-chart .department:after,
+  .org-chart .department2:after {
+    display: none;
+  }
+
+  .org-chart .department:first-child:before,
+  .org-chart .department2:first-child:before {
+    display: none;
+  }
+}
+
+/*--------- TO BE REMOVED FROM YOUR CSS --*/
+/* this is just to display the behaviour of responsive on codepen */
+.responsive-content {
+  width: 767px;
+  margin: 0px auto;
+}
+
+.responsive-content .org-chart .board {
+  margin: 0px;
+  width: 100%;
+}
+
+.responsive-content .org-chart .departments:before,
+.responsive-content .org-chart .departments2:before {
+  border: none;
+}
+
+.responsive-content .org-chart .department,
+.responsive-content .org-chart .department2 {
+  float: none;
+  width: 100%;
+  margin-left: 0;
+  background: #f5eec9;
+  margin-bottom: 40px;
+}
+
+.responsive-content .org-chart .department:before,
+.responsive-content .org-chart .department2:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 15px;
+  height: 60px;
+  border-left: 2px solid orange;
+  z-index: 1;
+  top: -45px;
+  left: 0%;
+  margin-left: -2px;
+}
+
+.responsive-content .org-chart .department:after,
+.responsive-content .org-chart .department2:after {
+  display: none;
+}
+
+.responsive-content .org-chart .department:first-child:before,
+.responsive-content .org-chart .department2:first-child:before {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+
+
+  .background-nav {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+
+  .background-nav h3 {
+    font-size: 35px;
+  }
+}

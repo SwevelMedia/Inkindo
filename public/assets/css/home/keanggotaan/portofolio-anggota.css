@@ -1,0 +1,97 @@
+/* contact */
+.kontak {
+    background: #005896;
+}
+.kontak {
+    margin: auto;
+}
+
+.kontak h1 {
+    padding-left: 100px;
+    padding-top: 120px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.kontak .sub-h1 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.bg-kontak-2 {
+    display: block;
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kontak .bg-kontak-1 {
+    z-index: 0;
+    padding-top: 40px;
+}
+
+.card {
+    width: 24rem;
+}
+
+.card-body {
+    background: #d5e0ec;
+    height: 220px;
+}
+
+.card-body h5 {
+    font-size: 20px;
+}
+
+.card-body p {
+    font-size: 15px;
+}
+
+.card-body .coba {
+    background: #005896;
+    width: 40px;
+    height: 40px;
+}
+.peta {
+    margin-left: auto;
+    padding-right: 50px;
+}
+
+.form {
+    width: 60%;
+    height: auto;
+    /* margin-left: 20px; */
+}
+
+/* #contact-us .card-body .d-flex {
+  background: #005896;
+  width: 40px;
+  height: 40px;
+} */
+
+/* end contact */
+
+/* ----------Portofolio-Detail Anggota */
+.project-content {
+    float: right;
+    width: 25%;
+}
+/* ----------End Portofolio-Detail Anggota */
+
+.btn-admin {
+    background: #0169b8 !important;
+    color: #fff !important;
+}
+.btn-admin:hover {
+    border: 1px solid #0169b8 !important;
+    background-color: #fff !important;
+    color: #0169b8 !important;
+}
+.stripe {
+    display: inline-block;
+    width: 2px;
+    height: 14px;
+    background-color: #d9d9d9;
+}

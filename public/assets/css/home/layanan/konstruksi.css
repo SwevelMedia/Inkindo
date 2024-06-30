@@ -1,0 +1,41 @@
+.backgorund-nav {
+  background-size: 100% auto;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+
+}
+
+.list-group-item.active {
+  background-color: #005896 !important;
+  color: #ffffff !important;
+}
+
+/* .perancanaan-ars-btn-1.active img {
+  src: url("/public/assets/img/layanan/icon-arstk.svg") !important;
+} */
+
+.list-group-item-action {
+  background-color: #ffffff !important;
+  border: 1px solid #005896;
+  color: #005896;
+}
+
+.list-group-item-action img {
+  fill: #005896;
+}
+
+.accordion-body {
+  border-top: 2px solid #005896 !important;
+}
+
+.accordion {
+  --bs-accordion-active-color: #202124;
+  --bs-accordion-active-bg: none;
+}
+
+.list-group-item img svg g path {
+  fill: #cc00ff;
+}
+
+.perancanaan-ars-btn:active {}

@@ -1,0 +1,38 @@
+#about-us {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.background {
+    background-repeat: no-repeat;
+    height: 500px;
+    /* max-height: 75vh; */
+    /* max-width: 100vh; */
+    /* overflow-x: hidden !important; */
+    /* width: 700px; */
+    /* padding-left: 100px; */
+
+
+}
+
+.danger {
+    position: relative;
+    padding-top: 30vh;
+    /* Set the padding to match the height of the absolute image */
+}
+
+@media screen and (max-width: 1100px) {
+    .background {
+        max-height: 50vh !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .background {
+        max-height: 40vh !important;
+    }
+
+    .danger {
+        padding-top: 0;
+    }
+}

@@ -1,0 +1,97 @@
+/* galeri */
+.bg-galeri-1 {
+  background-size: 100% auto;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  /* height: 260px; */
+
+}
+
+.bg-galeri h1 {
+  /* padding-top: 80px; */
+  color: white;
+  font-size: 45px;
+}
+
+.bg-galeri p {
+  /* padding-top: 140px; */
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  width: 700px;
+}
+
+.btn-outline-light {
+  --bs-btn-color: #f8f9fa;
+  --bs-btn-border-color: #f8f9fa;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #f8f9fa;
+  --bs-btn-hover-border-color: #f8f9fa;
+  --bs-btn-focus-shadow-rgb: 248, 249, 250;
+  --bs-btn-active-color: #0169b8 !important;
+  --bs-btn-active-bg: #f8f9fa;
+  --bs-btn-active-border-color: #f8f9fa;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #f8f9fa;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #f8f9fa;
+  --bs-gradient: none;
+}
+
+.bg-galeri .btn-light {
+  /* margin-top: 230px; */
+  /* padding-top: 10px; */
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-style: bold;
+  /* color: #207fc1; */
+  padding: 8px 30px;
+  /* border: #0169B8 1px solid !important; */
+}
+
+.bg-galeri .btn-1 {
+  margin: 0 5px;
+}
+
+.img-thumbnail.img-fluid.image {
+  object-fit: cover;
+}
+
+.bg-galeri .btn-galeri {
+  gap: 3 rem;
+}
+
+/* .agenda-card .card {
+  width: 18rem;
+} */
+
+.card-search-product {
+  width: 15rem !important;
+}
+
+.img-agenda {
+  position: relative;
+}
+
+.img-agenda img {
+  width: 100%;
+  /* height: 100%; */
+  /* width: min-content; */
+  /* height: 13.5rem; */
+  object-fit: cover;
+  /* object-fit: contain; */
+}
+
+.img-agenda .btn-top-right {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.card h6 {
+  height: 40px;
+  overflow: hidden;
+}
+
+/* end galeri */
